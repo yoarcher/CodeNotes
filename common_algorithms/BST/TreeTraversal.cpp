@@ -1,4 +1,11 @@
-==== Recursive Solution ====
+/* 
+ * Recursive and non-recursive solution to following traversal:
+ * Pre-order Traversal
+ * In-order Traversal
+ * Post-order Traversal 
+ */
+
+/* Recursive Solution */
 
 void preTravRec(Node *root){
     if(!root) return;
@@ -22,7 +29,7 @@ void postTravRec(Node *root){
 }
 
 
-==== Iterative Solution ====
+/* Iterative Solution */
 
 /* Visit node before visiting its children */
 void preOrdTravItr(Node *root){
